@@ -14,4 +14,4 @@ Preferred Name: Youhan
 
 Discord username: MYJ
 
-REPL url: https:https://github.com/bucs110FALL22/portfolio-MYJBing
+REPL url: https://replit.com/@YouhanJaigirdar
