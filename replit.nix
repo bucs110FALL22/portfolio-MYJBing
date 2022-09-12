@@ -1,6 +1,5 @@
 { pkgs }: {
 	deps = [
-		pkgs.bashInteractive
-		pkgs.python39Full
+		pkgs.python38Full
 	];
 }
