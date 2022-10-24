@@ -47,14 +47,82 @@ window.exitonclick
 # PART B - complete part B here
 pygame.init()
 window = pygame.display.set_mode()
+pygame.display.flip()
 
 # Triangle
 coords = []
-offset
+num_sides = 3
+side_length = 300
+offset = 200 
+for i in range(num_sides):
+  theta = 2.0*math.pi* i/num_sides
+  x = side_length *math.cos(theta) + offset
+  y = side_length * math.sin(theta) + offset
+  coords.append((x,y))  
+
+pygame.draw.polygon(window, 'green', coords)
+pygame.display.flip()
+pygame.time.delay(1000)
+window.fill('red')
 
 
+#Hexagon
+coords= []
+num_sides = 6
+for i in range(num_sides): 
+  theta = 2.0*math.pi* i/num_sides
+  x =  side_length * math.cos(theta) + offset
+  y = side_length * math.sin(theta) + offset
+  coords.append((x,y))
 
+pygame.draw.polygon(window, 'red', coords)
+pygame.display.flip()
+pygame.time.delay(1000)
+window.fill('grey')
 
+  #Square 
+coords= []
+num_sides= 4
+for i in range(num_sides):
+    theta = 2.0*math.pi * i + offset
+    x = side_length * math.cos(theta) + offset
+    y = side_length * math.sin(theta) + offset
+    coords.append((x, y))
 
+pygame.draw.polygon(window, "blue", coords)
+pygame.display.flip()
+pygame.time.delay(1000)
+window.fill("red")
+
+#nonagon
+coords= []
+num_sides = 9
+for i in range(num_sides):
+    theta = 2.0*math.pi * i + offset
+    x = side_length * math.cos(theta) + offset
+    y = side_length * math.sin(theta) + offset
+    coords.append((x, y))
+
+    
+pygame.draw.polygon(window, 'black', coords)
+pygame.display.flip()
+pygame.time.delay(1000)
+window.fill('gold')
+
+#circle
+coords= []
+num_sides= 360
+for i in range(num_sides):
+    theta = 2.0*math.pi * i + offset
+    x = side_length * math.cos(theta) + offset
+    y = side_length * math.sin(theta) + offset
+    coords.append((x, y))
+
+pygame.draw.polygon(window, 'yellow', coords)
+pygame.display.flip()
+pygame.time.delay(1000)
+window.fill('black')
+
+pygame.display.update
 
 window.exitonclick()
