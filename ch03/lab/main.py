@@ -46,14 +46,15 @@ window.exitonclick
 
 # PART B - complete part B here
 pygame.init()
-window = pygame.display.set_mode()
+window = pygame.display.set_mode((400,400))
+print(window.get_size())
 pygame.display.flip()
 
 # Triangle
 coords = []
 num_sides = 3
-side_length = 300
-offset = 200 
+side_length = 30
+offset = 100
 for i in range(num_sides):
   theta = 2.0*math.pi* i/num_sides
   x = side_length *math.cos(theta) + offset
@@ -75,7 +76,7 @@ for i in range(num_sides):
   y = side_length * math.sin(theta) + offset
   coords.append((x,y))
 
-pygame.draw.polygon(window, 'red', coords)
+pygame.draw.polygon(window, 'aqua', coords)
 pygame.display.flip()
 pygame.time.delay(1000)
 window.fill('grey')
@@ -84,26 +85,25 @@ window.fill('grey')
 coords= []
 num_sides= 4
 for i in range(num_sides):
-    theta = 2.0*math.pi * i + offset
-    x = side_length * math.cos(theta) + offset
-    y = side_length * math.sin(theta) + offset
-    coords.append((x, y))
+  theta = 2.0*math.pi * i/num_sides
+  x = side_length * math.cos(theta) + offset
+  y = side_length * math.sin(theta) + offset
+  coords.append((x, y))
 
-pygame.draw.polygon(window, "blue", coords)
+pygame.draw.polygon(window, "aliceblue", coords)
 pygame.display.flip()
-pygame.time.delay(1000)
-window.fill("red")
+pygame.time.delay(10000)
+window.fill("brown")
 
 #nonagon
 coords= []
 num_sides = 9
 for i in range(num_sides):
-    theta = 2.0*math.pi * i + offset
+    theta = 2.0*math.pi * i/num_sides
     x = side_length * math.cos(theta) + offset
     y = side_length * math.sin(theta) + offset
     coords.append((x, y))
 
-    
 pygame.draw.polygon(window, 'black', coords)
 pygame.display.flip()
 pygame.time.delay(1000)
@@ -113,16 +113,15 @@ window.fill('gold')
 coords= []
 num_sides= 360
 for i in range(num_sides):
-    theta = 2.0*math.pi * i + offset
+    theta = 2.0*math.pi * i/num_sides
     x = side_length * math.cos(theta) + offset
     y = side_length * math.sin(theta) + offset
     coords.append((x, y))
 
-pygame.draw.polygon(window, 'yellow', coords)
+pygame.draw.polygon(window, 'lime', coords)
 pygame.display.flip()
 pygame.time.delay(1000)
-window.fill('black')
+window.fill('magenta')
 
 pygame.display.update
 
-window.exitonclick()
