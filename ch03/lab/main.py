@@ -92,7 +92,7 @@ for i in range(num_sides):
 
 pygame.draw.polygon(window, "aliceblue", coords)
 pygame.display.flip()
-pygame.time.delay(10000)
+pygame.time.delay(1000)
 window.fill("brown")
 
 #nonagon
