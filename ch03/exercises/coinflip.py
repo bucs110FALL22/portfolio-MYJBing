@@ -41,10 +41,10 @@ while is_in_window:
     print("(x,y)")
 
 
-If abs(x) > 300 or abs(y) > 300:
- is_in_window = False
+if abs(x) > 150 or abs(y) > 150:
+   is_in_window = False
 
-window.exitonclick
+window.exitonclick()
     
     
 

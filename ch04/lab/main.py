@@ -22,22 +22,22 @@ pygame.display.flip()
 #Part B
 
 for i in range(10):
-    x = random.randrange(0, 300)
-    y = random.randrange(0, 300)
-    coords = [x, y]
-    print(coords)
+  x = random.randrange(0, 300)
+  y = random.randrange(0, 300)
+  coords = [x, y]
+  print(coords)
 
-for i in [coords]:
-    distance_from_center = math.hypot(x - 150, y - 150)
-is_in_circle = distance_from_center <= 300 / 2
 
-if is_in_circle == True:
+  distance_from_center = math.hypot(x - 150, y - 150)
+  is_in_circle = distance_from_center <= 300 / 2
+
+  if is_in_circle == True :
     pygame.draw.circle(window, 'green', (coords), (3))
 
-if is_in_circle == False:
+  if is_in_circle == False:
     pygame.draw.circle(window, 'magenta', (coords), (3))
 
-pygame.display.flip()
+  pygame.display.flip()
 
 #Part C
 pygame.time.delay(4000)
@@ -49,8 +49,8 @@ player_blue = pygame.draw.rect(windowC, 'blue', pygame.Rect(0, 0, 150, 300))
 
 pygame.display.flip()
 
-Player_blue_score = 0 #null
-Player_red_score = 0   #null
+blue_score = 0 #null
+red_score = 0   #null
 
 
 player_selected = ""
@@ -86,7 +86,7 @@ for i in range(10):
     y = random.randrange(0, 300)
     coords = [x, y]
   
-    pygame.draw.circle(window, 'aqua', (coords), (3))
+    pygame.draw.circle(window, 'red', (coords), (3))
     for i in [coords]:
         distance_from_center = math.hypot(x - 150, y - 150)
         is_in_circle = distance_from_center <= 300 / 2
@@ -94,43 +94,43 @@ for i in range(10):
         if is_in_circle == True:
           red_score +=1
         if is_in_circle == False:
-            pygame.draw.circle(window, 'lime', (coords), (5))
+            pygame.draw.circle(window, 'orange', (coords), (3))
 
     x = random.randrange(0, 300)
     y = random.randrange(0, 300)
     coords = [x, y]
 
-    pygame.draw.circle(window, "blue", (coords), (5))
+    pygame.draw.circle(window, "blue", (coords), (3))
     for i in [coords]:
         distance_from_center = math.hypot(x - 150, y - 150)
         is_in_circle = distance_from_center <= 300 / 2
 
         if is_in_circle == True:
-          Player_blue_score +=1
+          blue_score +=1
         if is_in_circle == False:
-            pygame.draw.circle(window, 'orange', (coords), (3))
+            pygame.draw.circle(window, 'aqua', (coords), (3))
 
     pygame.display.flip()
    
 print("Blue had", blue_score)
 print("Red had", red_score)
 
-if player_selected == "red" and Player_red_score > Player_blue_score: 
+if player_selected == "red" and red_score > blue_score: 
   print("Player Red Wins!")
   print("You Win!")
-if player_selected == "red" and Player_red_score < Player_blue_score:
+if player_selected == "red" and red_score < blue_score:
   print("Player Blue Wins!")
   print("You Lose!")
-if player_selected == "blue" and Player_blue_score > Player_red_score:
+if player_selected == "blue" and blue_score > red_score:
   print("Player Blue Wins!")
   print("You Win!")
-if player_selected == "blue" and Player_blue_score < Player_red_score:
+if player_selected == "blue" and blue_score < red_score:
   print("Player Red Wins!")
   print("You Lose!")
-if player_selected == "blue" and Player_blue_score == red_score:
+if player_selected == "blue" and blue_score == red_score:
   print("Tie!")
   print("Draw Result")
-if player_selected == "red" and Player_red_score == Player_blue_score:
+if player_selected == "red" and red_score == blue_score:
   print("Tie!")
   print("No Winner")
 
