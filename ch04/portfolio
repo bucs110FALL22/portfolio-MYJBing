@@ -1,9 +1,3 @@
-# Final Project Milestone #1
-
-[Final Project Description](https://docs.google.com/document/d/1j3zgypVjPjzXl4pL1_Wpjvp3GLCW9zcFydkwUjNfNUA/edit?usp=sharing)
-
-In order to start the Final Project for the course, you will need to decide on the following (remember, nothing is set in stone yet).
-
 Review the sample Final Projects listed below and come up with 3 possible ideas of your own for your final project. Complete this document in **your** portfolio (CH 4). A few things to note:
 
 1. ***Don't limit yourself***
@@ -27,3 +21,6 @@ For each one below you should have a basic description of a program idea, a coup
 ## Project Idea 3
 
 < A colorful Pong game. A traditional game designed with modern attrbites, giving off an ancient vibe.By pygame, two players will be able to play the game and the highest score-gets the winner display on the screen with confetti images. We will greatly make use of turtle, pygame, functions and the loops to achieve this. Will use input function to allow the input from the user thriugh the keyboard this time.The game will keep looping until the user pauses and eventually ends by the 'pygame.quit"().  >
+
+
+
