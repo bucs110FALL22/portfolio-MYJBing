@@ -1,6 +1,6 @@
 # CS110 Midterm Exam : Mohammed Youhan Jaigirdar
 
-## SHORT DESCRIPTION *( My happy turtle-cheerful in a beautiful, cloudy background. )*
+## SHORT DESCRIPTION *( My happy turtle-cheerful in a beautiful, cloudy background. I used a turtle module to draw an unique happy face in a nature setting, depicting joy and happiness. )*
 
 ## KNOWN BUGS AND INCOMPLETE PARTS *()*
 
