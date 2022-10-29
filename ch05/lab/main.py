@@ -1,7 +1,7 @@
 import pygame
 import math
 
-#PART A
+# PART A
 
 n = 101
 count = 0
