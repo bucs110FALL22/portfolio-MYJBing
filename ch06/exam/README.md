@@ -1,12 +1,13 @@
-# CS110 Midterm Exam
+# CS110 Midterm Exam : Mohammed Youhan Jaigirdar
 
-## SHORT DESCRIPTION *(1 or 2 sentences describing your program)*
+## SHORT DESCRIPTION *( My happy turtle-cheerful in a beautiful, cloudy background. )*
 
-## KNOWN BUGS AND INCOMPLETE PARTS *(list any known bugs or non-working parts)*
+## KNOWN BUGS AND INCOMPLETE PARTS *()*
 
-## REFERENCES *(any resources you use outside of class materials)*
+## REFERENCES *([any resources you use outside of class materials](https://realpython.com/)
+)*
 
-## MISCELLANEOUS COMMENTS *(anything else you would like the grader to know)*
+## MISCELLANEOUS COMMENTS *(I have made a scenary type program with a big background. Please view it in full size to get the whole picture as the total window might not come at times. )*
 
 
 
