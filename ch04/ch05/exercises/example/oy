@@ -1,9 +1,0 @@
-import turtle
-
-
-def drawSquare(myturtle=None, side_length=(0)
-for in range(4)
-                    myturtle.foreward(side_length)
-                  myturtle.left(90)
-
-
