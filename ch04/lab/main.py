@@ -45,7 +45,7 @@ windowC = pygame.display.set_mode([300, 300])
 windowC.fill('lime')
 
 player_red = pygame.draw.rect(windowC, 'red', pygame.Rect(0, 0, 150, 300))
-player_blue = pygame.draw.rect(windowC, 'blue', pygame.Rect(0, 0, 150, 300))
+player_blue = pygame.draw.rect(windowC, 'blue', pygame.Rect(150, 0, 150, 300))
 
 pygame.display.flip()
 
@@ -54,23 +54,21 @@ red_score = 0   #null
 
 
 player_selected = ""
-
 player_chosen = False
+print('Guess who will win?')
 while not player_chosen:
   for event in pygame.event.get(): 
      if event.type == pygame.MOUSEBUTTONUP:
        (xmouse, ymouse) = pygame.mouse.get_pos()
        if player_red.collidepoint(xmouse, ymouse):
-        print("Guess who will win?")
         player_selected = 'red'
         player_chosen = True
-       pygame.display.flip()
+        pygame.display.flip()
 
-     else:
-       print('Guess who will win?')
-       player_selected = 'blue'
-       player_chosen = True
-       pygame.display.flip
+       else:
+         player_selected = 'blue'
+         player_chosen = True
+         pygame.display.flip
 
 windowA =pygame.display.set_mode([300, 300])
 windowA.fill('blue')
@@ -134,12 +132,13 @@ if player_selected == "red" and red_score == blue_score:
   print("Tie!")
   print("No Winner")
 
-  pygame.display.flip()
+pygame.display.flip()
 
 while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             pygame.quit()
+            print("here")
             exit()
 
 pygame.display.flip()
