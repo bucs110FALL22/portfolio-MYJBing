@@ -1,8 +1,7 @@
 import random
 
-#generating random number
+#generating random number by import
 number = random.randrange(1,11)
-
 
 chance = 0
 correct_guess = False
@@ -17,7 +16,7 @@ for i in range(3):
   elif guess > number:
     print("Too High.")
   else:  #(guess = number)
-    print("Correct!")
+    print("Correct!!!")
     print("It took you", chance, "chances to get it correct")
     
     
