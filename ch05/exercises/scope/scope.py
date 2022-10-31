@@ -23,8 +23,8 @@ print(exponent(v, k))
 #square
 x = 12
 n = 4
-sqaure = multiplication(x,n) * multiplication(x,n)
-print (sqaure)
+square = multiplication(x,n) * multiplication(x,n)
+print (square)
 
 
 
