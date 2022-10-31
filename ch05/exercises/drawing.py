@@ -1,20 +1,20 @@
-
-#define a function
-def star_pyramid(rows): 
-print(rows,id(rows)
-
-  
+import turtle
 
 
+def drawEqShape(myturtle, num_sides, side_length):
+  angle = (360 /num_sides)
+  for i in range(num_sides):
+    myturtle.forward(side_length)
+    myturtle.left(angle)
 
-#define a function
-def rstar_pyramid
-for i in range (rows, 0,-2)
-print( )
 
-levels = int(input("Enter Your Desired Pyramid Height"))
+myturtle = turtle.Turtle()
+myturtle.shape("turtle")
+myturtle.color("green")
+num_sides = int(input("Enter number of sides: "))
+side_length = int(input("Enter side length: "))
 
-starpyramid(levels)
-rstar_pyramid(levels)
+drawEqShape(myturtle, num_sides , side_length)
 
-print(levels,)
+
+
