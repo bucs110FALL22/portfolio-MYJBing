@@ -17,3 +17,7 @@ for key, value in substitutions.items():
   article =article.replace(key, value)
 
 print(article)
+
+#Done
+#Working
+

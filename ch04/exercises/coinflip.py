@@ -45,6 +45,7 @@ if abs(x) > 150 or abs(y) > 150:
    is_in_window = False
 
 window.exitonclick()
-    
+
+#Done
     
 
