@@ -23,12 +23,14 @@ Come up with interfaces fot 3 possible classes you think you may need. Again, br
 
 ## Class Interface 1
 
-< menu : Having several appealing buttons >
+ Menu : A Menu interface, Having several appealing buttons, creating a menu for the user to click and start the game and other options.
+
 
 ## Class Interface 2
 
-< aim-training game  >
+ Aim Trainer Frame and the game 
 
 ## Class Interface 3
 
-< exit >
+Closing Menu
+
