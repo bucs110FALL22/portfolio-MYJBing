@@ -28,7 +28,7 @@ Come up with interfaces fot 3 possible classes you think you may need. Again, br
 
 ## Class Interface 2
 
- Aim Trainer Frame and the game 
+ Aim Trainer Frame and the game.  Use of timer module as well
 
 ## Class Interface 3
 
