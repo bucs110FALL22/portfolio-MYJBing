@@ -27,7 +27,7 @@ Remember, this is to get you thinking and help me guide you. Nothing is set in s
 
 Using the example below, list each model class and its interface
 
-1. < Class Name > 
-    * __init__
-        * < description >
-    * < additional methods >
+1. << Class Menu > 
+    * init(self, screen_width, screen_height, window, rectangle)
+        * < create a menu to allow user to determine to start the game or exit the game>
+    * Methods: Select, Gamestart, Exit, Click
