@@ -29,5 +29,5 @@ Using the example below, list each model class and its interface
 
 1. << Class Menu > 
     * init(self, screen_width, screen_height, window, rectangle)
-        * < create a menu to allow user to determine to start the game or exit the game>
+        * < create a menu to allow user to determine to start the game or exit the game. Appealing menu buttons >
     * Methods: Select, Gamestart, Exit, Click
