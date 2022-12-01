@@ -4,13 +4,16 @@ import requests
 #Import 
 #API Url
 
-#Created A function, ended with a call to the function 
+counter = requests.get("https://v2.jokeapi.dev/joke/Any").json()
 
-def get_response():
-  response = 
-  requests.get("https://v2.jokeapi.dev/joke/Any").json()
-  print(response)
+
+print(counter)
   
-get_response()
+
 
 #Retrieve 
+
+import requests 
+
+response = requests.get("https://randomuser.me/api/")
+response.text
