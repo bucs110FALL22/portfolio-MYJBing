@@ -4,7 +4,7 @@ import requests
 #Import 
 #API Url
 
-counter = requests.get("https://v2.jokeapi.dev/joke/Any").json()
+counter =requests.get("https://v2.jokeapi.dev/joke/Any").json()
 
 
 print(counter)
