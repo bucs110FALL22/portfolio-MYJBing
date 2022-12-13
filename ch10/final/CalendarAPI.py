@@ -6,4 +6,12 @@ class CalendarAPI :
     
   def get(self):
     self.output1 = requests.get(self.url).json()
-    print(self.output1)
+    value=self.output1['datetime']
+    print(value)
+
+  
+#keys=self.output1.keys()
+#print(keys)
+
+
+
