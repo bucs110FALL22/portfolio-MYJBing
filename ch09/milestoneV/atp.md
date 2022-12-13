@@ -4,6 +4,21 @@
 
 # ATP
 
+
+ATP: Game Procedure
+
+| Step      |Procedure                     |Expected Results                      |
+|-----------|:----------------------------:|-------------------------------------:|
+|  1        |Run main.py                   |menu pops up                          |
+|  2        |click start button            |text based interface ask user for data|
+|  3        |input data for target's properties| data is stored in game, start button appears|
+|  4        |click available start button  | targets pop up to be clicked         |
+|  5        | click on targets             | new targets are generated            |
+|  6        | click on remaining targets   | score is displayed at the end        |
+|  7        | if click on score            | game will run with it's settings again| 
+
+
+
 An Acceptance Test Procedure is a step by step guide to anyone using the software that shows the software works according to the specifications. In the software industry, an **ATP**, must be completed before delivering the software to the customer. The **ATP** should be designed so that someone who has no idea what your Project is or how to run it can follow your instructions and see as much of your project as possible.
 
 This also gives you a checklist of things that must be working by the time you submit your project. You will put together an Acceptance Test Procedure (ATP) at the end of your proposal in tabular format. Note the example one provided here and in the sample proposal. 
