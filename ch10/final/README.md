@@ -8,11 +8,12 @@ EmailAPI - Message Code details. Error code popup detail
 
 ## KNOWN BUGS AND INCOMPLETE PARTS *(list any known bugs or non-working parts)*
 
-EmailAPI- Shows message code details
 
 ## REFERENCES *(any resources you use outside of class materials)*
-https://app.abstractapi.com/ 
+https://app.abstractapi.com/  : I collected the APIs from this site
 
+Geeks for Geeks
+Youtube
 
 I collected the APIs from this site
 
