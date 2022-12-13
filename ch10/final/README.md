@@ -4,11 +4,11 @@
 )*
 CalenderAPI - Shows the current date, tine of London, UK in the Greenwich Mean time format of timezone.
 
-EmailAPI - spposed to show the email and data parts 
+EmailAPI - Message Code details. Error code popup detail 
 
 ## KNOWN BUGS AND INCOMPLETE PARTS *(list any known bugs or non-working parts)*
 
-EmailAPI- Not showing the exact data of email. Request bug 
+EmailAPI- Shows message code details
 
 ## REFERENCES *(any resources you use outside of class materials)*
 https://app.abstractapi.com/ 

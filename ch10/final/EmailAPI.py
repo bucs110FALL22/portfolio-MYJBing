@@ -1,4 +1,3 @@
-#https://emailvalidation.abstractapi.com/v1/?api_key=77996d4338d44e0bab4573fa05811b15&email=youhanjaigirdar2@gmail.com
 import requests
 
 class EmailAPI: 
