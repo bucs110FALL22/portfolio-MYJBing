@@ -17,10 +17,10 @@ class StringUtility:
       for i in self.string:
         if(i=="a" or i=="e"or i=="i" or i=="o" or i=="u"):
           count = count + 1
-        if (count >5):
+        if (count >=5):
           return "many"
-        else:
-          return count
+     
+      return str(count)
   
   def bothEnds(self):
       """Returns a string made of the first 2 and last 2 chars of the original string"""
@@ -35,12 +35,10 @@ class StringUtility:
   def fixStart(self):
       """Returns a string where the first character have been changed to '*'"""
       if len(self.string)>=1:
-        first_char= self.string[0]
-        for i in self.string:
-          s_star = self.string[1:].replace(firstchar,"*")
-          return self.string[0]+ str
+         first_char = self.string[0]
+         return first_char+self.string[1:].replace(first_char,"*")
       else:
-        return""
+        return ""
   
   def asciiSum(self):
       """Returns the sum of the ASCII values of everything in the string."""
